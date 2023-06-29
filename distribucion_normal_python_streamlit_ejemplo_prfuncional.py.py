@@ -220,5 +220,4 @@ if __name__ == "__main__":
     # Aquí puedes agregar el código que deseas ejecutar cuando el archivo se ejecute directamente
     ruta_db = "base_de_datos.db"
     query = "SELECT fecha, valor FROM tabla"
-    eliminar_base_de_datos(ruta_db)
     visualizacion_distribucion_normal(ruta_db, query)
